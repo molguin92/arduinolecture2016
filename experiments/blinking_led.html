@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>S.H.A. Chile 2016 - Arduino Lecture by molguin92</title>
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>S.H.A. Chile 2016 - Arduino Lecture</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/molguin92">molguin92</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>Blinking LED circuit</h2>
+		<h3>What you need:</h3>
+		<ul>
+		<li>1 Yellow LED</li>
+		<li>1 Red LED</li>
+		<li>2 330 Ohm resistors</li>
+		<li>6 cables</li>
+		</ul>
+		
+		<p>Connect the components according to the following diagram:</p>
+		
+		<p><img src="../images/Blinking_Arduino.png" alt="Diagram" style="width:600px;float:inherit;"></p>
+		
+		<p>Now, we are going to program the Arduino to make those LEDs blink when we want to. Go to the Start Menu and open the Arduino program. A window that looks like this will open:</p>
+		<p><img src="../images/arduino_ide1.png" alt="Diagram" style="float:inherit;"></p>
+		<p>Edit the code to look like this:</p>
+		<p><img src="../images/arduino_ide2.png" alt="Diagram" style="float:inherit;"></p>
+		<p>Finally, press the arrow button at the top to run the program on your Arduino (you'll have to save the project somewhere on the computer first though!).</p>
+		<h3>Evaluation Questions:</h3>
+		<ul>
+		<li>Why do we connect the LED to a numbered port on the Arduino, and not to the 5v output as before?</li>
+		<li>What's the difference between the <tt>setup()</tt> and <tt>loop()</tt> sections of the program?</li>
+		<li>How would you make the LED blink faster? Slower?</li>
+		<li>How would you make the LED's blink alternately (first red, then yellow, and so on)?</li>
+		</ul>
+		
+		
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
